@@ -1,24 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Tracker from './Tracker';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='m-16 font-poppins font-semibold text-4xl text-center text-white'>
+        <p className='p-4'> Cryptocurrency Realtime Price </p>
+        <div className=' w-full flex flex-row'>
+          <Tracker />
+        </div>
+      </div>
   );
 }
 
