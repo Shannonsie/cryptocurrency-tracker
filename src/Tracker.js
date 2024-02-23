@@ -30,7 +30,6 @@ function Tracker() {
                                 <p className="font-semibold text-sm text-neutral-400"> Change </p>
                                 <p className={`${crypto.changePercent24Hr < 0 ? 'text-red-500' : 'text-green-500'}`}> {JSON.parse(crypto.changePercent24Hr).toFixed(8)}</p>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
